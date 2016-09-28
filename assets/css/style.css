@@ -1,0 +1,264 @@
+/*-----General Css-----*/
+
+body {
+  background-image: url("assets/images/cork-wallet.png");
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+
+/*------Header------*/
+header {
+  float: left;
+  width: 20%;
+  text-align: center;
+  background: #4aaaa5;
+  color: red;
+  padding: 24px 0;
+  margin: 0 0 0 100px;
+}
+
+
+
+/*----Navigation-----*/
+
+.upper {
+  margin: ;
+  padding: 20px 40px 20px 0;
+  background: #444;
+  color: white;
+  border-bottom: green solid 1px;
+}
+
+.upper ul {
+  text-align: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.upper li {
+  display: inline-block;
+  margin: 5px;
+  font-size: 1.2em;
+  line-height: 30px;
+}
+
+.upper #border {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  padding: 0 5px;
+}
+
+
+.upper a {
+  color: white;
+  text-decoration: none;
+}
+
+.upper a, .navigation a:visited {
+  color: #lightgrey;
+}
+
+.upper a.selected, .upper a:hover {
+  color: black;
+}
+
+
+
+
+
+/*-------Main content---------*/
+.main-content {
+  position: relative;
+  top: 65px;
+  left: 100px;
+  max-width: 960px;
+ }
+
+
+
+
+
+/*-----About content----*/
+.about {
+  float: left;
+  max-width: 650px;
+  background: grey;
+  border: solid 3px;
+}
+
+.about img {
+  max-width: 40%;
+  float: left;
+  margin: 0 25px;
+  padding: 0px;
+  border: solid 1px;
+}
+
+.about h1 {
+  margin: 25px;
+  padding: 10px;
+  text-align: left;
+  border-bottom: solid #888;
+}
+
+.about p {
+  margin: 25px;
+  padding: 10px;
+}
+
+/*-----connect content----*/
+.connect { 
+  max-width: 270px;
+  float: right;   
+  background: white;
+  border: solid black 2px;
+}
+
+.connect img {
+  max-width: 30%;
+  padding:0 0 0 5px;
+  margin-bottom: 15px;
+  }
+
+.connect h2 {
+  margin: 25px;
+  padding: 10px;
+  border-bottom: solid #888;
+}
+
+/*-----footer------*/
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  color: red;
+  background-color: #444;
+  padding: 50px;  
+  margin: 50px;
+  width: 100%;
+  border-top: 3px solid black;
+}
+
+
+
+/*---------Sticky footer------*/
+.wrap {
+  min-height: calc(100vh - 89px);
+}
+
+
+/*-------clearfix---------*/
+
+.clearfix {
+overflow: auto;
+}
+
+
+
+/*------------------Contact Page--------------------*/
+
+
+
+.contact {
+  float: left;
+  max-width: 550px;
+  background: white;
+  width: 35%;
+  margin: 0px 0px 0px 0px; 
+  padding: 0px 35px 20px 25px;
+  border: black solid 1px;
+}
+
+
+.contact h1 {
+  margin: 25px;
+  padding: 10px;
+  border-bottom: solid #888;
+}
+
+.contact-addition {
+  
+  padding: 0 100px 0 0;
+  margin: 0 0 0 0;
+}
+
+.connect-alter { 
+  max-width: 270px;
+  float: right;   
+  background: white;
+  box-shadow: 0px 10px 15px 0px;
+}
+
+ img {
+  max-width: 30%;
+  padding:0 0 0 5px;
+  margin-bottom: 15px;
+  }
+
+ h2 {
+  margin: 25px;
+  padding: 10px;
+  border-bottom: solid #888;
+}
+
+/*---------Portfolio Page---------*/
+
+
+
+#pictures {
+  margin: 0;
+  padding: 0;
+  max-width: 940px;
+  list-style: none;
+}
+
+.pictures ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: solid black;
+  background: white;
+}
+
+
+
+#pictures li {
+  float: left;
+}
+
+
+.pictures img {
+  float: left;
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+  background: white;
+}
+
+#flower {
+  clear: both;
+}
+
+#water {
+clear: both;
+}
+
+.image-text {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 0
+
+}
+
+
+
